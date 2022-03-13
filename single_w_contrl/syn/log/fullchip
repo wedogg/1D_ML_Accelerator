@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 13 05:53:34 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'fullchip' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    tcbn65gplustc (File: /home/linux/ieng6/ee260bwi22/public/PDKdata/db/tcbn65gplustc.db)
+
+Number of ports:                        35709
+Number of nets:                        119247
+Number of cells:                        79261
+Number of combinational cells:          63711
+Number of sequential cells:             14893
+Number of macros/black boxes:               0
+Number of buf/inv:                      12555
+Number of references:                       1
+
+Combinational area:             184284.000412
+Buf/Inv area:                    16832.520571
+Noncombinational area:          131065.556912
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                315349.557324
+Total area:                 undefined
+1
