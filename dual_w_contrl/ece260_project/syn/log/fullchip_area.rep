@@ -1,0 +1,69 @@
+Warning: Design 'fullchip' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 13 01:22:31 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       2      2.160000  
+controller_bw8_bw_psum20_col8_pr16_0
+                              207438.835276
+                                                 1  207438.835276 b, h, n
+controller_bw8_bw_psum20_col8_pr16_1
+                              207441.715277
+                                                 1  207441.715277 b, h, n
+fifo_depth16_bw24_0            5058.359992       1   5058.359992  h, n
+fifo_depth16_bw24_1            5058.359992       1   5058.359992  h, n
+-----------------------------------------------------------------------------
+Total 5 references                                  424999.430536
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 13 14:34:47 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       2      2.160000  
+controller_bw8_bw_psum20_col8_pr16_0
+                              318245.036819
+                                                 1  318245.036819 h, n
+controller_bw8_bw_psum20_col8_pr16_1
+                              320373.716851
+                                                 1  320373.716851 h, n
+fifo_depth16_bw24_4            4550.040022       1   4550.040022  h, n
+fifo_depth16_bw24_5            4378.680021       1   4378.680021  h, n
+-----------------------------------------------------------------------------
+Total 5 references                                  647549.633713
+1
