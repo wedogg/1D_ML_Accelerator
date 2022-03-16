@@ -1,0 +1,108 @@
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Tue Mar 15 22:39:52 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFFD1             tcbn65gplustc
+                                  1.440000     312    449.280018  
+INVD0              tcbn65gplustc
+                                  1.080000       2      2.160000  
+controller_bw8_bw_psum20_col8_pr16_0
+                              347780.877522
+                                                 1  347780.877522 h, n
+controller_bw8_bw_psum20_col8_pr16_1
+                              351906.117722
+                                                 1  351906.117722 h, n
+fifo_depth16_bw24_4            5102.280009       1   5102.280009  h, n
+fifo_depth16_bw24_5            3669.839994       1   3669.839994  h, n
+-----------------------------------------------------------------------------
+Total 6 references                                  708910.555263
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Wed Mar 16 00:01:53 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFFD1             tcbn65gplustc
+                                  1.440000     281    404.640016  
+INVD0              tcbn65gplustc
+                                  1.080000       2      2.160000  
+controller_bw8_bw_psum20_col8_pr16_0
+                              314843.035020
+                                                 1  314843.035020 h, n
+controller_bw8_bw_psum20_col8_pr16_1
+                              314554.315105
+                                                 1  314554.315105 h, n
+fifo_depth16_bw24_4            3643.559913       1   3643.559913  h, n
+fifo_depth16_bw24_5            3637.439912       1   3637.439912  h, n
+-----------------------------------------------------------------------------
+Total 6 references                                  637085.149967
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Wed Mar 16 01:11:35 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFFD1             tcbn65gplustc
+                                  1.440000     133    191.520008  
+INVD0              tcbn65gplustc
+                                  1.080000       2      2.160000  
+controller_bw8_bw_psum20_col8_pr16_0
+                              314138.514982
+                                                 1  314138.514982 h, n
+controller_bw8_bw_psum20_col8_pr16_1
+                              313455.594956
+                                                 1  313455.594956 h, n
+fifo_depth16_bw24_4            3629.159913       1   3629.159913  h, n
+fifo_depth16_bw24_5            3609.719910       1   3609.719910  h, n
+-----------------------------------------------------------------------------
+Total 6 references                                  635026.669769
+1
